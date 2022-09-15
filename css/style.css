@@ -203,6 +203,14 @@ nav .main-ul>li>a:hover::before {
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
+@keyframes to-top {
+    50% {
+        top: 71px;
+    }
+    100% {
+        top: 71px;
+    }
+}
 .other-links .menu-links {
     display: flex;
     width: 100%;
@@ -296,6 +304,14 @@ nav .main-ul>li>a:hover::before {
         padding: 0;
         top: 130px;
         right: 0;
+    }
+    @keyframes to-top {
+        50% {
+            top: 91px;
+        }
+        100% {
+            top: 91px;
+        }
     }
     .other-links .menu-links {
         flex-direction: column;
@@ -1543,15 +1559,6 @@ footer .end {
         border-radius: 0;
     }
 }
-@keyframes to-top {
-    50% {
-        top: 71px;
-    }
-
-    100% {
-        top: 71px;
-    }
-}
 @keyframes up-down {
     50% {
         transform: translateY(55px);
@@ -1580,7 +1587,6 @@ footer .end {
     98% {
         margin-right: -8px;
     }
-
     100% {
         margin-right: 0px;
     }
