@@ -1876,18 +1876,6 @@ footer .end {
     }
 }
 
-
-@keyframes to-top {
-    50% {
-        top: 90px;
-    }
-
-    100% {
-        top: 95px;
-    }
-}
-
-
 @keyframes fill-img {
     80% {
         width: 150%;
